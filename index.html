@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title href="index.html">Product Showcase</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+ 
+</head>
+<body>
+
+  <!-- Nav Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Product Showcase</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="aboutus.html ">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+<!-- Hero Section ni siya with image background -->
+  <section id="hero" class="container hero-section"> <!-- ang pag declare sa background image anang hero is naa sa styles.css -->
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h2>Discover the Latest Tech</h2>
+      <p>Find the best gadgets at unbeatable prices.</p>
+      <button onclick="viewAllProducts()" class="btn">View All Products</button>
+    </div>
+  </section>
+
+
+<div class="pcategory">
+  <h1>Product Categories</h1>
+</div>
+
+  <!-- Product Category Section -->
+  <section id="products" class="container">
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/smartphone.jpg" alt="Smartphone">
+        <h3>Smartphone</h3>
+        <p>Latest smartphone with advanced features.</p>
+        <button onclick="viewAllProducts()">View All Products</button> <!-- Redirection products.html na button -->
+      </div>
+      <div class="product">
+        <img src="images/smartwatch.jpg" alt="Smartwatch">
+        <h3>Smartwatch</h3>
+        <p>Track your health and stay connected.</p>
+        <button onclick="viewAllProducts()">View All Products</button> <!-- Redirection products.html na button -->
+      </div>
+      <div class="product">
+        <img src="images/wirelessearb.jpg" alt="Wireless Earbuds">
+        <h3>Wireless Earbuds</h3>
+        <p>High-quality sound and noise cancellation.</p>
+        <button onclick="viewAllProducts()">View All Products</button> <!-- Redirection products.html na button -->
+      </div>
+      <div class="product">
+        <img src="images/laptops.jpg" alt="Laptops">
+        <h3>Laptops</h3>
+        <p>High-end quality laptops for your needs.</p>
+        <button onclick="viewAllProducts()">View All Products</button> <!-- Redirection products.html na button -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="center-text">
+    <p>&copy; 2025 Product Showcase of BSIT-COC. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
